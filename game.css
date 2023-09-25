@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(61, 61, 70);
+    color: white;
+}
+
+.gameMap {
+    width: 496px;
+    height: 496px;
+    border: 10px solid #666;
+    
+}
+
+.gameMap div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #555;
+
+    float: left;
+}
+.gameMap .pac {
+    background-image:url(pacman.png);
+}
+.gameMap .coin {
+    background-image:url(coin.png);
+}
+.gameMap .bomb {
+    background-image:url(Bomb-icon.png);
+}
