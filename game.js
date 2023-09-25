@@ -34,7 +34,7 @@ function action () {
     if (pac_x== coin_x1 && pac_y==coin_y1) {
         score +=10
         coin_state1 = false
-        console.log(coin_state)
+        console.log(coin_state1)
     } else if (pac_x== coin_x2 && pac_y==coin_y2) {
         score +=10
         coin_state2 = false
